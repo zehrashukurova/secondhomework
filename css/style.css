@@ -1,0 +1,204 @@
+header{
+    
+    border-bottom: 3px solid rgb(150, 150, 48);
+    padding: 20px 60px;
+    
+}
+header .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar div ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.navbar div ul a{
+    text-decoration: none;
+    color: #6b6969;
+    font-size: 22px;
+    font-weight: 400;
+}
+.navbar div button{
+    background-color: rgb(110, 110, 41);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.navbar div button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+     /* ~~~~~~~~~1st section~~~~~~~~ */
+.section1{
+    position: relative;
+}
+.section1 div{
+    position: absolute;
+}
+.section1 div:nth-child(1){
+    background-color:rgb(150, 150, 48) ;
+    width: 260px;
+    height: 620px;
+    z-index: 1;
+    top: 160px;
+    left: 790px;
+}
+.section1 div:nth-child(2){
+    z-index: 2;
+    top: 50px;
+    left: 400px;
+}
+.section1 div img{
+    width: 600px;
+    height: 500px;
+    
+}
+.section1 div:nth-child(3){
+    background-color:#fff ;
+    width: 340px;
+    height: 200px;
+    z-index: 3;
+    left: 730px;
+    top: 470px;
+    padding: 10px;
+}
+.section1 div h1{
+    font-size: 44px;
+}
+.section1 div button{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(150, 150, 48);
+}
+.section1 div button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+       /* ~~~~2nd section~~~~~ */
+.section2{
+    background-color: rgb(219, 214, 214);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 800px;
+    gap: 30px;
+    
+
+}
+.section2  h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.section2 p{
+    color: #615f5f;
+}
+.people-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
+}
+.section2 div:hover{
+    box-shadow:0 5px 10px 10px #a8a7a7;
+}
+.people-div div img:nth-child(4){
+    width: 70px;
+}
+.photo{
+    width: 100px;
+    height: 100px;
+    border: 8px solid rgb(150, 150, 48) ;
+    border-radius: 50%;
+}
+.people-div div{
+    width: 24%;
+    height: 240px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+       /* ~~~~~3rd section~~~~~ */
+.section3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 800px;
+    padding: 0 40px;
+
+}
+.section3 div img{
+    width: 500px;
+    height: 400px;
+}
+.section3 div h2{
+    font-size: 34px;
+    text-align: center;
+}
+.section3 .form{
+    width:500px;
+    position: relative;
+    padding: 20px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+.form  input[type=text],input[type=email]{
+    width: 500px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid rgb(97, 96, 96);
+}
+.form input[type=submit]{
+    background-color:rgb(150, 150, 48) ;
+    width: 500px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.form textarea{
+    width: 500px;
+    height: 80px;
+    border: none;
+    border-bottom: 2px solid rgb(97, 96, 96);
+}
+     /* ~~~~~~~footer~~~~~~ */
+     
+footer{
+    position: relative;
+    top: 797px;
+    padding: 40px;
+    background-color: #444343;
+    
+}
+footer p{
+    text-align: center;
+    color: #ccc;
+}
+       
+
+    
+
+
+
+
+
+
+
+
